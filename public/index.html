@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+    <title>Fiordiva API</title>
+</head>
+
+<body>
+    <div class="header">
+        <img src="/img/logo.webp">
+    </div>
+    <div class="credentials-wrapper">
+        <div class="credentials">
+            <p>Client email: fiordivaapi@lively-math-469911-p7.iam.gserviceaccount.com</p>
+            </p><input id="google-id" type="text" id="name" name="name" placeholder="Spreadsheet ID (Opzionale)"
+                required minlength="4" maxlength="100" size="10" />
+        </div>
+    </div>
+
+    <button onclick="retrieveOrders()">Ordini</button>
+    <button onclick="copyContent()">Copia</button>
+    <div id="error-wrapper"></div>
+    <div id="data-section">
+        <table id="ordersTable">
+            <thead>
+                <tr id="top-row">
+                    <th>Order ID</th>
+                    <th>Numero Ordine</th>
+                    <th>Data</th>
+                    <th>Prodotto (SKU)</th>
+                    <th>Quantità</th>
+                    <th>Prezzo Prodotto</th>
+                    <th>Prezzo Spedizione</th>
+                    <th>Prezzo Totale</th>
+                    <th>Stato</th>
+                    <th>TestMode</th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+    </div>
+
+
+    <script src="index.js"></script>
+</body>
+
+</html>

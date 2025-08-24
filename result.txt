@@ -1,0 +1,509 @@
+{
+  "result": [
+    {
+      "id": "68a1ba9ad4d43b6492ab153f",
+      "orderNumber": "2",
+      "createdOn": "2025-08-17T11:18:49.140Z",
+      "modifiedOn": "2025-08-20T08:25:06.855Z",
+      "channel": "web",
+      "testmode": true,
+      "customerEmail": "christian.niccolai@gmail.com",
+      "billingAddress": {
+        "firstName": "asdfcswef",
+        "lastName": "wefwefwef",
+        "address1": "153 Via del Casone",
+        "address2": null,
+        "city": "Olmi",
+        "state": "Toscana",
+        "countryCode": "IT",
+        "postalCode": "51039",
+        "phone": ""
+      },
+      "shippingAddress": {
+        "firstName": "asdfcswef",
+        "lastName": "wefwefwef",
+        "address1": "153 Via del Casone",
+        "address2": null,
+        "city": "Olmi",
+        "state": "Toscana",
+        "countryCode": "IT",
+        "postalCode": "51039",
+        "phone": null
+      },
+      "fulfillmentStatus": "CANCELED",
+      "lineItems": [
+        {
+          "id": "68a1ba614471492a4af9a5cb",
+          "variantId": "db619041-b328-4e40-a499-5fad8a0dd0f5",
+          "sku": "212632-XS",
+          "weight": 0,
+          "width": 0,
+          "length": 0,
+          "height": 0,
+          "productId": "688cf95ea40898554954f7a0",
+          "productName": "Vestito da sera- A monospalla",
+          "quantity": 1,
+          "unitPricePaid": {
+            "currency": "EUR",
+            "value": "34.30"
+          },
+          "variantOptions": [
+            {
+              "optionName": "Colore",
+              "value": "Violetto"
+            },
+            {
+              "optionName": "Taglia",
+              "value": "XS"
+            }
+          ],
+          "customizations": null,
+          "imageUrl": "https://images.squarespace-cdn.com/content/v1/680fe03bf020cf66e9450298/d82a60ab-23ca-45db-a80a-39dd005f7878/db_images_custom1000x1500_1076842.jpg?format=300w",
+          "lineItemType": "PHYSICAL_PRODUCT"
+        }
+      ],
+      "internalNotes": [],
+      "shippingLines": [
+        {
+          "method": "Standard",
+          "amount": {
+            "currency": "EUR",
+            "value": "7.00"
+          }
+        }
+      ],
+      "discountLines": [],
+      "formSubmission": [
+        {
+          "label": "Numero di telefono",
+          "value": ""
+        },
+        {
+          "label": "Consegna presso Azienda/Negozio",
+          "value": "La consegna è diretta al domicilio"
+        },
+        {
+          "label": "C'è il nome sul campanello?",
+          "value": "Nominativo presente sul campanello"
+        },
+        {
+          "label": "Nota / Info aggiuntive",
+          "value": ""
+        },
+        {
+          "label": "info@fiordiva.it",
+          "value": ""
+        }
+      ],
+      "fulfillments": [],
+      "subtotal": {
+        "currency": "EUR",
+        "value": "34.30"
+      },
+      "shippingTotal": {
+        "currency": "EUR",
+        "value": "7.00"
+      },
+      "discountTotal": {
+        "currency": "EUR",
+        "value": "0.00"
+      },
+      "taxTotal": {
+        "currency": "EUR",
+        "value": "0.00"
+      },
+      "refundedTotal": {
+        "currency": "EUR",
+        "value": "41.30"
+      },
+      "grandTotal": {
+        "currency": "EUR",
+        "value": "41.30"
+      },
+      "channelName": "Squarespace",
+      "externalOrderReference": null,
+      "fulfilledOn": null,
+      "priceTaxInterpretation": "EXCLUSIVE"
+    },
+    {
+      "id": "68a1c055d7e8db1aeea64676",
+      "orderNumber": "4",
+      "createdOn": "2025-08-17T11:43:16.268Z",
+      "modifiedOn": "2025-08-17T21:58:37.254Z",
+      "channel": "web",
+      "testmode": true,
+      "customerEmail": "christian.niccolai@gmail.com",
+      "billingAddress": {
+        "firstName": "ddd",
+        "lastName": "dsddd",
+        "address1": "153 Via del Casone",
+        "address2": null,
+        "city": "Olmi",
+        "state": "Toscana",
+        "countryCode": "IT",
+        "postalCode": "51039",
+        "phone": ""
+      },
+      "shippingAddress": {
+        "firstName": "ddd",
+        "lastName": "dsddd",
+        "address1": "153 Via del Casone",
+        "address2": null,
+        "city": "Olmi",
+        "state": "Toscana",
+        "countryCode": "IT",
+        "postalCode": "51039",
+        "phone": null
+      },
+      "fulfillmentStatus": "FULFILLED",
+      "lineItems": [
+        {
+          "id": "68a1c02cb6d57e446fa0dad6",
+          "variantId": "9e5dced0-c03d-4695-be95-fda8dacd91a9",
+          "sku": "215221-U",
+          "weight": 0,
+          "width": 0,
+          "length": 0,
+          "height": 0,
+          "productId": "689e489e5192dc0b960ca7fd",
+          "productName": "Vestito da giorno- Amalfi",
+          "quantity": 1,
+          "unitPricePaid": {
+            "currency": "EUR",
+            "value": "28.90"
+          },
+          "variantOptions": [
+            {
+              "optionName": "Colore",
+              "value": "Nero"
+            },
+            {
+              "optionName": "Taglia",
+              "value": "Universale"
+            }
+          ],
+          "customizations": null,
+          "imageUrl": "https://images.squarespace-cdn.com/content/v1/680fe03bf020cf66e9450298/99c3daf9-8c27-495e-b5db-c6a6d420b209/db_images_custom1000x1500_1084914.jpg?format=300w",
+          "lineItemType": "PHYSICAL_PRODUCT"
+        }
+      ],
+      "internalNotes": [],
+      "shippingLines": [
+        {
+          "method": "Standard",
+          "amount": {
+            "currency": "EUR",
+            "value": "7.00"
+          }
+        }
+      ],
+      "discountLines": [],
+      "formSubmission": [
+        {
+          "label": "Numero di telefono",
+          "value": ""
+        },
+        {
+          "label": "Consegna presso Azienda/Negozio",
+          "value": "La consegna è diretta al domicilio"
+        },
+        {
+          "label": "C'è il nome sul campanello?",
+          "value": "Nominativo presente sul campanello"
+        },
+        {
+          "label": "Nota / Info aggiuntive",
+          "value": ""
+        },
+        {
+          "label": "info@fiordiva.it",
+          "value": ""
+        }
+      ],
+      "fulfillments": [],
+      "subtotal": {
+        "currency": "EUR",
+        "value": "28.90"
+      },
+      "shippingTotal": {
+        "currency": "EUR",
+        "value": "7.00"
+      },
+      "discountTotal": {
+        "currency": "EUR",
+        "value": "0.00"
+      },
+      "taxTotal": {
+        "currency": "EUR",
+        "value": "0.00"
+      },
+      "refundedTotal": {
+        "currency": "EUR",
+        "value": "0.00"
+      },
+      "grandTotal": {
+        "currency": "EUR",
+        "value": "35.90"
+      },
+      "channelName": "Squarespace",
+      "externalOrderReference": null,
+      "fulfilledOn": "2025-08-17T21:58:37.252Z",
+      "priceTaxInterpretation": "EXCLUSIVE"
+    },
+    {
+      "id": "68a1bbbe9cf64349fa9cd4e9",
+      "orderNumber": "3",
+      "createdOn": "2025-08-17T11:23:40.735Z",
+      "modifiedOn": "2025-08-17T11:23:42.320Z",
+      "channel": "web",
+      "testmode": true,
+      "customerEmail": "christian.niccolai@gmail.com",
+      "billingAddress": {
+        "firstName": "ffff",
+        "lastName": "ffffff",
+        "address1": "153 Via del Casone",
+        "address2": null,
+        "city": "Olmi",
+        "state": "Toscana",
+        "countryCode": "IT",
+        "postalCode": "51039",
+        "phone": ""
+      },
+      "shippingAddress": {
+        "firstName": "ffff",
+        "lastName": "ffffff",
+        "address1": "153 Via del Casone",
+        "address2": null,
+        "city": "Olmi",
+        "state": "Toscana",
+        "countryCode": "IT",
+        "postalCode": "51039",
+        "phone": null
+      },
+      "fulfillmentStatus": "PENDING",
+      "lineItems": [
+        {
+          "id": "68a1bb8a4471492a4af9a656",
+          "variantId": "f5a4456c-871a-4ce1-a285-aeb7543117ff",
+          "sku": "212632-S",
+          "weight": 0,
+          "width": 0,
+          "length": 0,
+          "height": 0,
+          "productId": "688cf95ea40898554954f7a0",
+          "productName": "Vestito da sera- A monospalla",
+          "quantity": 1,
+          "unitPricePaid": {
+            "currency": "EUR",
+            "value": "34.30"
+          },
+          "variantOptions": [
+            {
+              "optionName": "Colore",
+              "value": "Violetto"
+            },
+            {
+              "optionName": "Taglia",
+              "value": "S"
+            }
+          ],
+          "customizations": null,
+          "imageUrl": "https://images.squarespace-cdn.com/content/v1/680fe03bf020cf66e9450298/c9ef71dc-a0cd-4b79-80e2-31d697c5cf86/db_images_custom1000x1500_1076843.jpg?format=300w",
+          "lineItemType": "PHYSICAL_PRODUCT"
+        }
+      ],
+      "internalNotes": [],
+      "shippingLines": [
+        {
+          "method": "Standard",
+          "amount": {
+            "currency": "EUR",
+            "value": "7.00"
+          }
+        }
+      ],
+      "discountLines": [],
+      "formSubmission": [
+        {
+          "label": "Numero di telefono",
+          "value": ""
+        },
+        {
+          "label": "Consegna presso Azienda/Negozio",
+          "value": "Ho scritto il nome dell'azienda/negozio nell'indirizzo"
+        },
+        {
+          "label": "C'è il nome sul campanello?",
+          "value": "Nominativo presente sul campanello"
+        },
+        {
+          "label": "Nota / Info aggiuntive",
+          "value": ""
+        },
+        {
+          "label": "info@fiordiva.it",
+          "value": ""
+        }
+      ],
+      "fulfillments": [],
+      "subtotal": {
+        "currency": "EUR",
+        "value": "34.30"
+      },
+      "shippingTotal": {
+        "currency": "EUR",
+        "value": "7.00"
+      },
+      "discountTotal": {
+        "currency": "EUR",
+        "value": "0.00"
+      },
+      "taxTotal": {
+        "currency": "EUR",
+        "value": "0.00"
+      },
+      "refundedTotal": {
+        "currency": "EUR",
+        "value": "0.00"
+      },
+      "grandTotal": {
+        "currency": "EUR",
+        "value": "41.30"
+      },
+      "channelName": "Squarespace",
+      "externalOrderReference": null,
+      "fulfilledOn": null,
+      "priceTaxInterpretation": "EXCLUSIVE"
+    },
+    {
+      "id": "68a1b660d4d43b6492ab14c4",
+      "orderNumber": "1",
+      "createdOn": "2025-08-17T11:00:46.914Z",
+      "modifiedOn": "2025-08-17T11:00:48.303Z",
+      "channel": "web",
+      "testmode": true,
+      "customerEmail": "christian.niccolai@gmail.com",
+      "billingAddress": {
+        "firstName": "Christian",
+        "lastName": "Niccolai",
+        "address1": "153 Via del Casone",
+        "address2": null,
+        "city": "Olmi",
+        "state": "Toscana",
+        "countryCode": "IT",
+        "postalCode": "51039",
+        "phone": ""
+      },
+      "shippingAddress": {
+        "firstName": "Christian",
+        "lastName": "Niccolai",
+        "address1": "153 Via del Casone",
+        "address2": null,
+        "city": "Olmi",
+        "state": "Toscana",
+        "countryCode": "IT",
+        "postalCode": "51039",
+        "phone": null
+      },
+      "fulfillmentStatus": "PENDING",
+      "lineItems": [
+        {
+          "id": "68a1b5cc00857f3a1b3969a2",
+          "variantId": "9e5dced0-c03d-4695-be95-fda8dacd91a9",
+          "sku": "215221-U",
+          "weight": 0,
+          "width": 0,
+          "length": 0,
+          "height": 0,
+          "productId": "689e489e5192dc0b960ca7fd",
+          "productName": "Vestito da giorno- Amalfi",
+          "quantity": 1,
+          "unitPricePaid": {
+            "currency": "EUR",
+            "value": "28.90"
+          },
+          "variantOptions": [
+            {
+              "optionName": "Colore",
+              "value": "Nero"
+            },
+            {
+              "optionName": "Taglia",
+              "value": "Universale"
+            }
+          ],
+          "customizations": null,
+          "imageUrl": "https://images.squarespace-cdn.com/content/v1/680fe03bf020cf66e9450298/99c3daf9-8c27-495e-b5db-c6a6d420b209/db_images_custom1000x1500_1084914.jpg?format=300w",
+          "lineItemType": "PHYSICAL_PRODUCT"
+        }
+      ],
+      "internalNotes": [],
+      "shippingLines": [
+        {
+          "method": "Standard",
+          "amount": {
+            "currency": "EUR",
+            "value": "7.00"
+          }
+        }
+      ],
+      "discountLines": [],
+      "formSubmission": [
+        {
+          "label": "Numero di telefono",
+          "value": "3210987654"
+        },
+        {
+          "label": "Consegna presso Azienda/Negozio",
+          "value": "La consegna è diretta al domicilio"
+        },
+        {
+          "label": "C'è il nome sul campanello?",
+          "value": "Nominativo presente sul campanello"
+        },
+        {
+          "label": "Nota / Info aggiuntive",
+          "value": "lasciare il pacco nel cancello"
+        },
+        {
+          "label": "info@fiordiva.it",
+          "value": ""
+        }
+      ],
+      "fulfillments": [],
+      "subtotal": {
+        "currency": "EUR",
+        "value": "28.90"
+      },
+      "shippingTotal": {
+        "currency": "EUR",
+        "value": "7.00"
+      },
+      "discountTotal": {
+        "currency": "EUR",
+        "value": "0.00"
+      },
+      "taxTotal": {
+        "currency": "EUR",
+        "value": "0.00"
+      },
+      "refundedTotal": {
+        "currency": "EUR",
+        "value": "0.00"
+      },
+      "grandTotal": {
+        "currency": "EUR",
+        "value": "35.90"
+      },
+      "channelName": "Squarespace",
+      "externalOrderReference": null,
+      "fulfilledOn": null,
+      "priceTaxInterpretation": "EXCLUSIVE"
+    }
+  ],
+  "pagination": {
+    "nextPageUrl": null,
+    "nextPageCursor": null,
+    "hasNextPage": false
+  }
+}

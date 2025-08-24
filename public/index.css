@@ -1,0 +1,72 @@
+body {
+    background-color: rgb(236, 228, 218);
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#data-section {
+    width: 100%;
+
+}
+
+.credentials-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    text-decoration: underline;
+
+}
+
+.credentials {
+
+
+    flex-direction: column;
+}
+
+
+input {
+    width: 30%;
+}
+
+button {
+    background-color: hsla(30, 12.5%, 18.82%, 1);
+    cursor: pointer;
+    color: white;
+    width: 100px;
+    padding: 15px;
+    border-radius: 5px;
+    border: 0px;
+}
+
+
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-family: Arial, sans-serif;
+}
+
+th,
+td {
+    border: 1px solid #ddd;
+    padding: 8px 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+tr:nth-child(even) {
+    background-color: #fafafa;
+}
