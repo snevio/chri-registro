@@ -3,7 +3,18 @@
   "version": "1.0.0",
   "main": "main.js",
   "scripts": {
-    "dev": "nodemon server.js"
+    "dev": "nodemon server.js",
+    "start": "electron .",
+    "dist": "electron-builder"
+  },
+  "build": {
+    "appId": "com.example.chri-registro",
+    "files": [
+      "**/*"
+    ],
+    "directories": {
+      "buildResources": "public"
+    }
   },
   "keywords": [],
   "author": "",
@@ -16,8 +27,8 @@
     "toastify-js": "^1.12.0"
   },
   "devDependencies": {
-    "electron": "^37.3.1",
-    "electron-packager": "^17.1.2",
+    "electron": "^26.0.0",
+    "electron-builder": "^24.0.0",
     "nodemon": "^3.1.10"
   }
 }
