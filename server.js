@@ -16,7 +16,9 @@ const auth = new google.auth.GoogleAuth({
 
 
 
-app.listen(process.env.PORT_BACK);
+app.listen(process.env.PORT_BACK, () => {
+    console.log(`Listening to port ${process.env.PORT_BACK}`)
+});
 
 app.use(express.static(path.join(__dirname, 'public')))
 

@@ -9,6 +9,12 @@
   },
   "build": {
     "appId": "com.example.chri-registro",
+    "asarUnpack": [
+      "server.js",
+      "package.json",
+      ".env",
+      "google.json"
+    ],
     "files": [
       "**/*"
     ],
