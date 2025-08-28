@@ -55,7 +55,7 @@ web_modules/
 # Optional npm cache directory
 .npm
 
-/google.json
+google.json
 
 # Optional eslint cache
 .eslintcache
