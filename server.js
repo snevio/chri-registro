@@ -54,9 +54,9 @@ app.get("/api/orders", async (req, res) => {
                 nomeProdotto: entry.lineItems[0].productName,
                 idProdotto: entry.lineItems[0].productId,
                 quantita: entry.lineItems[0].quantity,
-                prezzoProdotto: entry.subtotal.value,
-                prezzoSpedizione: entry.shippingTotal.value,
-                prezzoTotale: entry.grandTotal.value,
+                prezzoProdotto: Number(entry.subtotal.value),
+                prezzoSpedizione: Number(entry.shippingTotal.value),
+                prezzoTotale: Number(entry.grandTotal.value),
                 stato: entry.fulfillmentStatus,
                 testMode: entry.testmode
 
